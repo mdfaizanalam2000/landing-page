@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DanceHolic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div id="logo">
+            DanceHolic
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#mission">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#partners">Services</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="header">
+        <h1>Welcome to DanceHolic!</h1>
+        <h3>Eat, Sleep, Dance, Repeat</h3>
+        <button>Join Now</button>
+    </div>
+    <div id="mission">
+        <h2 class="subtitle">Step-by-Step Learning For All Levels:-</h2>
+        <div class="container">
+            <div class="levels">
+                <h3>BEGINNER</h3>
+                <p>Beginners can start from scratch with our 10-day intro program.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="levels">
+                <h3>INTERMEDIATE</h3>
+                <p>Feel pretty confident? Learn more challenging skills and pieces.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="levels">
+                <h3>ADVANCED</h3>
+                <p>Already killin' it? Train with the top choreographers in the game.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </div>
+    <div id="partners">
+        <h2 class="subtitle">Learn A Variety of Dance Styles:-</h2>
+        <div id="dance-styles">
+            <div class="style"><img
+                    src="https://global-uploads.webflow.com/5dbb40d6d8c97447e9450447/60baaab0aa12e6d6ad9074b6_STEEZY_HIPHOP-min.jpg"
+                    alt="error">
+                <h4>Hip Hop</h4>
+            </div>
+            <div class="style"><img
+                    src="https://global-uploads.webflow.com/5dbb40d6d8c97447e9450447/60baaab0aa12e68aa29074b7_STEEZY_CONTEMP-min.jpg"
+                    alt="error">
+                <h4>Contemporary</h4>
+            </div>
+            <div class="style"><img
+                    src="https://global-uploads.webflow.com/5dbb40d6d8c97447e9450447/61cb62b743a7564c79d61be4_PRODUCT_THUMBNAIL-min-p-500.jpeg"
+                    alt="error">
+                <h4>Dance Workout</h4>
+            </div>
+            <div class="style"><img
+                    src="https://global-uploads.webflow.com/5dbb40d6d8c97447e9450447/60baaab0d8ce5038de0475ff_STEEZY_KPOP-min.jpg"
+                    alt="error">
+                <h4>K-Pop</h4>
+            </div>
+            <div class="style"><img
+                    src="https://global-uploads.webflow.com/5dbb40d6d8c97447e9450447/60baaab004cd38de543dd7a1_STEEZY_BALLET-min.jpg"
+                    alt="error">
+                <h4>Ballet</h4>
+            </div>
+            <div class="style"><img
+                    src="https://global-uploads.webflow.com/5dbb40d6d8c97447e9450447/615e128e6cd629d07d38baf1_SALSA_CATEGORY_THUMB-min.jpg"
+                    alt="error">
+                <h4>Salsa</h4>
+            </div>
+            <div class="style"><img
+                    src="https://global-uploads.webflow.com/5dbb40d6d8c97447e9450447/60baaab0707f8ffece1e0ea3_STEEZY_POPPING-min.jpg"
+                    alt="error">
+                <h4>Popping</h4>
+            </div>
+            <div class="style"><img
+                    src="https://global-uploads.webflow.com/5dbb40d6d8c97447e9450447/60baaab0f8caa4145fe07fef_STEEZY_JAZZ-min.jpg"
+                    alt="error">
+                <h4>Jazz</h4>
+            </div>
+            <div class="style"><img
+                    src="https://global-uploads.webflow.com/5dbb40d6d8c97447e9450447/60baaab04214ca70831e3e4f_STEEZY_LITEFEET-min.jpg"
+                    alt="error">
+                <h4>Lite Feet</h4>
+            </div>
+            <div class="style"><img
+                    src="https://global-uploads.webflow.com/5dbb40d6d8c97447e9450447/60baaab0f91c1677a7d6c4bb_STEEZY_HEELS-min.jpg"
+                    alt="error">
+                <h4>Heels</h4>
+            </div>
+            <div class="style"><img
+                    src="https://global-uploads.webflow.com/5dbb40d6d8c97447e9450447/60baaab0707f8f87061e0ea2_STEEZY_HOUSE-min.jpg"
+                    alt="error">
+                <h4>House</h4>
+            </div>
+            <div class="style"><img
+                    src="https://global-uploads.webflow.com/5dbb40d6d8c97447e9450447/60baaab07a233c5367e6035e_STEEZY_LOCKING-min.jpg"
+                    alt="error">
+                <h4>Locking</h4>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <h3 class="subtitle">Contact Us</h3>
+        <form onsubmit="handleSubmit()">
+            <input required type="text" name="name" id="name" placeholder="Enter your name">
+            <input required type="email" name="email" id="email" placeholder="Enter your email">
+            <textarea required name="message" id="message" cols="30" rows="10"
+                placeholder="Type your message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <div id="footer">
+        <footer>
+            Copyright &copy; 2023. All Rights Reserved
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
